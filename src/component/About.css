@@ -1,0 +1,233 @@
+/* About Page Styles */
+.about-section {
+    padding-bottom: 80px;
+    background-color: #f8f9fa; /* Light gray to match the image clean look */
+}
+
+/* Header Section */
+.about-header {
+    margin-bottom: 3rem;
+    position: relative;
+    padding-top: 2rem;
+}
+
+.about-title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #111827;
+    position: relative;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+.about-title::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    width: 60px;
+    height: 6px;
+    background-color: #2563eb; /* Blue-600 */
+    border-radius: 3px;
+}
+
+.about-subtitle {
+    font-size: 1.25rem;
+    color: #6b7280; /* Gray-500 */
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+/* Profile Section */
+.profile-img-container {
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1.5rem;
+}
+
+.profile-img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    display: block;
+}
+
+.profile-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.meta-item {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    color: #4b5563;
+    font-size: 0.95rem;
+    font-weight: 500;
+}
+
+.meta-icon {
+    font-size: 1.1rem;
+    color: #4f46e5; /* Indigo-600 */
+}
+
+/* Journey Section */
+.section-label {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 1.5rem;
+}
+
+.journey-text {
+    color: #374151; /* Gray-700 */
+    line-height: 1.7;
+    margin-bottom: 1.5rem;
+    font-size: 1.05rem;
+}
+
+/* Info Cards (Experience/Education) */
+.info-card {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    height: 100%;
+    border: 1px solid #e5e7eb;
+}
+
+.info-header {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #2563eb;
+    margin-bottom: 1rem;
+}
+
+.info-item {
+    margin-bottom: 1rem;
+}
+
+.info-item:last-child {
+    margin-bottom: 0;
+}
+
+.item-title {
+    font-weight: 700;
+    color: #111827;
+    font-size: 0.95rem;
+    display: block;
+}
+
+.item-subtitle {
+    color: #6b7280;
+    font-size: 0.85rem;
+    display: block;
+}
+
+/* Beyond Screen / Hobbies */
+.hobby-card {
+    background: white;
+    border-radius: 16px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+    height: 100%;
+    border: 1px solid #e5e7eb;
+}
+
+.hobby-card:hover {
+    transform: translateY(-5px);
+}
+
+.hobby-img-wrapper {
+    height: 200px;
+    overflow: hidden;
+}
+
+.hobby-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hobby-content {
+    padding: 1.5rem;
+}
+
+.hobby-title {
+    font-weight: 700;
+    font-size: 1.1rem;
+    margin-bottom: 0.75rem;
+    color: #111827;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.hobby-desc {
+    color: #6b7280;
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+/* CTA Section */
+.cta-section {
+    background-color: #2563eb; /* Solid Blue-600 */
+    border-radius: 16px;
+    padding: 4rem 2rem;
+    text-align: center;
+    margin-top: 4rem;
+    color: white;
+    box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.3);
+}
+
+.cta-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+}
+
+.cta-subtitle {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    opacity: 0.9;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.btn-white {
+    background-color: white;
+    color: #2563eb;
+    font-weight: 700;
+    border: none;
+    padding: 0.8rem 2rem;
+    border-radius: 8px;
+    transition: all 0.2s;
+}
+
+.btn-white:hover {
+    background-color: #f3f4f6;
+    transform: translateY(-2px);
+}
+
+.btn-outline-white {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.4);
+    color: white;
+    font-weight: 700;
+    padding: 0.8rem 2rem;
+    border-radius: 8px;
+    transition: all 0.2s;
+    margin-left: 1rem;
+}
+
+.btn-outline-white:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: white;
+}

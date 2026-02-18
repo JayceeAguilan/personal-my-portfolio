@@ -1,0 +1,207 @@
+/* Skills Page Styles */
+.skills-section {
+    padding-bottom: 80px;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+/* Header Section */
+.skills-header {
+    margin-bottom: 4rem;
+    padding-top: 2rem;
+}
+
+.section-label {
+    color: #4f46e5; /* Indigo-600 */
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+
+.skills-title {
+    font-size: 3rem;
+    font-weight: 800;
+    color: #111827;
+    margin-bottom: 1rem;
+}
+
+.skills-subtitle {
+    font-size: 1.15rem;
+    color: #6b7280; /* Gray-500 */
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+/* Skill Cards */
+.skill-card {
+    background: white;
+    border: 1px solid #e5e7eb;
+    border-radius: 16px;
+    padding: 1.5rem;
+    height: 100%;
+    transition: all 0.2s ease-in-out;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+    border-color: #d1d5db;
+}
+
+.card-header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 1.5rem;
+}
+
+.icon-box {
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+
+/* Icon Colors (Solid only, no gradients) */
+.icon-js { background-color: #fef08a; color: #854d0e; } /* Yellow-200, Yellow-800 */
+.icon-react { background-color: #bae6fd; color: #0369a1; } /* Sky-200, Sky-700 */
+.icon-css { background-color: #99f6e4; color: #0f766e; } /* Teal-200, Teal-700 */
+.icon-html { background-color: #fed7aa; color: #c2410c; } /* Orange-200, Orange-700 */
+.icon-node { background-color: #bbf7d0; color: #15803d; } /* Green-200, Green-700 */
+.icon-git { background-color: #e5e7eb; color: #374151; } /* Gray-200, Gray-700 */
+
+.skill-badge {
+    font-size: 0.75rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 0.35rem 0.75rem;
+    border-radius: 9999px;
+}
+
+/* Badge Layouts matching icons */
+.badge-js { background-color: #fef9c3; color: #854d0e; }
+.badge-react { background-color: #e0f2fe; color: #0369a1; }
+.badge-css { background-color: #ccfbf1; color: #0f766e; }
+.badge-html { background-color: #ffedd5; color: #c2410c; }
+.badge-node { background-color: #dcfce7; color: #15803d; }
+.badge-git { background-color: #f3f4f6; color: #374151; }
+
+.skill-name {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #111827;
+    margin-bottom: 0.5rem;
+}
+
+.skill-desc {
+    font-size: 0.95rem;
+    color: #4b5563;
+    line-height: 1.5;
+}
+
+/* Proficiency Section */
+.proficiency-section {
+    margin-top: 5rem;
+}
+
+.prof-title {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: #111827;
+    margin-bottom: 3rem;
+}
+
+.prof-item {
+    margin-bottom: 2.5rem;
+}
+
+.prof-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.75rem;
+    font-weight: 700;
+    color: #111827;
+}
+
+.prof-percent {
+    color: #4f46e5; /* Indigo-600 */
+}
+
+.progress {
+    height: 10px;
+    background-color: #e5e7eb; /* Gray-200 background for track */
+    border-radius: 9999px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    background-color: #4f46e5; /* Indigo-600 Solid fill */
+    border-radius: 9999px;
+}
+
+.prof-tags {
+    margin-top: 0.75rem;
+    font-size: 0.85rem;
+    color: #6b7280;
+}
+
+/* CTA Footer */
+.skills-cta {
+    background-color: #2e1065; /* Deep Indigo/Violet like branding */
+    padding: 4rem 2rem;
+    border-radius: 16px;
+    margin-top: 5rem;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cta-content h2 {
+    font-weight: 800;
+    margin-bottom: 0.5rem;
+}
+
+.cta-content p {
+    color: #e9d5ff; /* Light purple text */
+    margin-bottom: 0;
+}
+
+.btn-cta-light {
+    background-color: white;
+    color: #2e1065;
+    font-weight: 700;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    border: none;
+    transition: all 0.2s;
+}
+
+.btn-cta-light:hover {
+    background-color: #f3f4f6;
+    transform: translateY(-2px);
+}
+
+.btn-cta-outline {
+    background-color: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.3);
+    color: white;
+    font-weight: 700;
+    padding: 0.75rem 2rem;
+    border-radius: 8px;
+    margin-left: 1rem;
+    transition: all 0.2s;
+}
+
+.btn-cta-outline:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    border-color: white;
+}
